@@ -24,7 +24,9 @@ export default class extends Controller {
   }
   
   calculate() {
-    return this.weightValue * 2
+   if (this.weightValue < 15) {
+     return 8
+   } else return 12
   }
 
 }
