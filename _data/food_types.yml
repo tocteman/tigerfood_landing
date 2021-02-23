@@ -1,0 +1,17 @@
+---
+title: Food Types
+fts:
+  - animal: pollo
+    color: verde
+  - animal: cerdo
+    color: salmon
+  - animal: conejo
+    color: naranja
+  - animal: cordero
+    color: turquesa
+  - animal: res
+    color: lacre
+  - animal: pescado
+    color: mostaza
+---
+

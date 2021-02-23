@@ -1,0 +1,13 @@
+node_modules/
+dist/
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+.bundle
+vendor
+package-lock.json
+Gemfile.lock
+
+# Local Netlify folder
+.netlify

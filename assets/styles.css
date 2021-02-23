@@ -1,0 +1,23 @@
+---
+---
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.bg-hero-header {
+  background-image: url('./img/quick_hero_bg.jpg');
+  opacity: 1;
+}
+
+.bg-questionnarie {
+  background-image: url('./img/quick_questionnarie_bg.jpg')
+}
+
+.blurry>* {
+    filter: blur(0.2em);
+  -webkit-filter: blur(0.2em);
+}
+.non-blurry {
+    filter: blur(0) !important;
+  -webkit-filter: blur(0) !important;
+}
