@@ -1,0 +1,19 @@
+<html lang="{{ site.lang | default: "en-US" }}">
+
+    {% include head.html %}
+   <body>
+    {% include navigation.html %}
+    {{ content }}
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
+  </body>
+</html>
