@@ -1,5 +1,6 @@
 import { Controller } from 'stimulus'
 import { get, set } from 'idb-keyval'
+import { annotate } from "rough-notation"
 
 export default class extends Controller {
   static targets = ["weightOutput", "nameOutput"]
@@ -14,8 +15,10 @@ export default class extends Controller {
           .then((name)=> {
             this.weightValue = weight
             this.nameValue = name
-            this.weightOutputTarget.textContent = `${this.calculate()}`
+            this.weightOutputTarget.textContent = `${this.calculate()} kgs`
             this.nameOutputTarget.textContent = `${this.nameValue}`
+            const annotation = annotate(this.weightOutputTarget, {type: 'underline', color: '#eedadf' })
+            annotation.show()
           })
       })
   }

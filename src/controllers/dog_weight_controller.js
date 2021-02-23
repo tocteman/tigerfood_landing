@@ -9,6 +9,7 @@ export default class extends Controller {
     weight: Number
   }
   initialize() {
+    console.log("ok?")
     const element = this.nameTarget
     const annotation = annotate(element, {type: 'underline'})
     annotation.show()
