@@ -1,12 +1,12 @@
 module.exports = {
-  // purge: [
-  //   './_includes/**/*.html',
-  //   './_layouts/**/*.html',
-  //   './partials/*.md',
-  //   './_posts/*.md',
-  //   './**/*.html',
-  //   './**/*.md',
-  // ],
+  :  purge: [
+    './_includes/**/*.html',
+    './_layouts/**/*.html',
+    './partials/*.md',
+    './_posts/*.md',
+    './**/*.html',
+    './**/*.md',
+  ],
   darkMode: false,
   theme: {
     fontFamily: {
