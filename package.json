@@ -32,6 +32,7 @@
     "purgecss": "^4.0.0",
     "rough-notation": "^0.5.1",
     "stimulus": "^2.0.0",
-    "tailwindcss": "^2.0.2"
+    "tailwindcss": "^2.0.2",
+    "tailwindcss-animatecss": "^1.0.7"
   }
 }

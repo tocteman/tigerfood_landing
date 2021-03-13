@@ -1,6 +1,6 @@
-<nav>
+<nav class="py-1 bg-morado-700">
   {% for item in site.data.navigation.items %}
-    <a href="{{ site.baseurl }}{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
+    <a href="{{ site.baseurl }}{{ item.link }}" {% if page.url == item.link %}style="color: white;"{% endif %}>
       {{ item.name }}
     </a>
   {% endfor %}

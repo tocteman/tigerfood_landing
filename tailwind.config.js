@@ -1,12 +1,12 @@
 module.exports = {
-  purge: [
-    './_includes/**/*.html',
-    './_layouts/**/*.html',
-    './partials/*.md',
-    './_posts/*.md',
-    './**/*.html',
-    './**/*.md',
-  ],
+  // purge: [
+  //   './_includes/**/*.html',
+  //   './_layouts/**/*.html',
+  //   './partials/*.md',
+  //   './_posts/*.md',
+  //   './**/*.html',
+  //   './**/*.md',
+  // ],
   darkMode: false,
   theme: {
     fontFamily: {
@@ -30,6 +30,7 @@ module.exports = {
         crema: {
           25: '#fffbfb',
           50: '#fffafa',
+          75: '#ffe9ea',
           100: '#f5e7ea',
           150: '#eedadf'
         },
@@ -88,6 +89,17 @@ module.exports = {
   },
   variants: {},
   plugins: [
-    require('@tailwindcss/typography'),
+    require('tailwindcss-animatecss')({
+        classes: ['animate__animated', 'animate__fadeIn', 'animate__bounceIn', 'animate__lightSpeedOut'],
+        settings: {
+          animatedSpeed: 1000,
+          heartBeatSpeed: 1000,
+          hingeSpeed: 2000,
+          bounceInSpeed: 750,
+          bounceOutSpeed: 750,
+          animationDelaySpeed: 1000
+        },
+        variants: ['responsive', 'hover', 'reduced-motion'],
+      }),
   ],
 }
