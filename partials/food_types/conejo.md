@@ -2,11 +2,15 @@
 layout: blank
 ---
 <turbo-frame id="the_pit">
-  <div style="background-image: url('../../assets/img/tarjeta_conejo.png')"
+  <div style="background-image: url('../../assets/img/escarapelas/escarapela_conejo_ruidosa.png')"
   class="bg-cover">
     <div class="escarapela border-naranja-300">
-      <h2 class="text-2xl font-bold">Conejo</h2>
-      <h3 class="text-xl">Zanahoria, Arroz, Arverja</h3>
+
+    <h2 class="text-4xl">Conejo</h2>
+      <h3 class="py-2 mx-8 text-xl font-bold text-center">
+        Arroz integral, yogur natural, papa criolla, brócoli, zanahoria, champiñones, espinaca, melón.
+      </h3>
+      <h3 class="mx-8 text-xl">Ideal para cachorros.*</h3>
     </div>
   </div>
 </turbo-frame>

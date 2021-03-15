@@ -37,7 +37,7 @@
 .btn-importante {
   @apply block;
   @apply px-4;
-  @apply py-2 !important;
+  @apply py-2;
   @apply mx-auto;
   @apply my-4;
   @apply text-xl;

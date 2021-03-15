@@ -1,5 +1,5 @@
 import { Controller } from 'stimulus'
-import { get, set } from 'idb-keyval'
+import { get} from 'idb-keyval'
 import { annotate } from "rough-notation"
 
 export default class extends Controller {
@@ -21,6 +21,7 @@ export default class extends Controller {
             annotation.show()
           })
       })
+      .catch(err => console.log(err))
   }
   
   calculate() {

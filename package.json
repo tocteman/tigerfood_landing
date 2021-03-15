@@ -5,9 +5,8 @@
   "author": "tocteman <juanfrancisco.vinueza@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "./node_modules/.bin/webpack --progress --config webpack.config.js && bundle exec jekyll build",
-    "start": "export NODE_ENV=development && export JEKYLL_ENV=development && zsh -c \"./node_modules/.bin/webpack --watch --progress --colors | tee -i >(bundle exec jekyll serve --livereload --incremental)\"",
+    "start": "export NODE_ENV=development && export JEKYLL_ENV=development && bash -c \"./node_modules/.bin/webpack --watch --progress --colors | tee -i >(bundle exec jekyll serve --livereload --incremental)\"",
     "prod": "export NODE_ENV=production && export JEKYLL_ENV=production && yarn build"
   },
   "devDependencies": {
