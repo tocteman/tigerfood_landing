@@ -1,4 +1,4 @@
-import {Controler} from 'stimulus'
+import {Controller} from 'stimulus'
 import { annotate } from 'rough-notation'
 
 

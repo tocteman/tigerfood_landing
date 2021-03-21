@@ -4,17 +4,9 @@ import { get, set } from 'idb-keyval'
 
 
 export default class extends Controller {
-  static targets = [ "name", "dogWeight"]
+  static targets = ["name", "dogWeight"]
   static values = {
     weight: Number
-  }
-  initialize() {
-    console.log("ok?")
-    const element = this.nameTarget
-    const annotation = annotate(element, {type: 'underline'})
-    annotation.show()
-    const name = element.value
-    // console.log(window.hotwiredTurbo)
   }
 
   anotherGreet() {

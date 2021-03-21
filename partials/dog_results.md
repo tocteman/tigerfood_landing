@@ -8,9 +8,7 @@ layout: blank
     <div>
     Pues
       <span class="mx-2 font-bold" data-results-target="nameOutput"></span>
-      <span class="mx-2 font-bold" data-results-target="nameOutput"></span>
       debería consumir 
-      <span class="w-24 ml-2 font-bold" data-results-target="weightOutput"></span>
       <span class="w-24 ml-2 font-bold" data-results-target="weightOutput"></span>
         de Tigerfood al mes.  
      </div>

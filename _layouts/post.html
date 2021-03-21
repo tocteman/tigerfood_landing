@@ -1,16 +1,22 @@
---
-  <image src= "{{page.featured_rondela}}" class="block py-8 mx-auto"/>
- <div class="w-full pt-16 min-hscreen bg-gradient-to-b from-crema-100 to-crema-50">
-layout: default
----
- <div class="w-full pt-16 min-hscreen bg-gradient-to-b from-crema-100 to-crema-50" data-controller="post">
-  <h1 class="block mx-auto text-3xl font-bold text-center"
-      data-post-target="title">
-    {{ page.title }}
-  </h1>
-  <image src= "{{page.featured_rondela}}" class="mx-auto py-8 block"/>
-  <p class="block max-w-md mx-auto leading-normal mx-auto-sm">
-    {{ page.date | date_to_string }}
-  </p>
-  {{ content }}
+
+ <div data-controller="blog-post"
+   class="w-full pt-8 min-hscreen bg-gradient-to-b from-crema-100 to-crema-50" >
+   <div class="block max-w-2xl mx-auto text-lg">
+      <div class="flex cursor-pointer hover:underline text-morado-700">
+         <svg class="w-6 h-6 mr-2 text-morado-700" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16l-4-4m0 0l4-4m-4 4h18"></path></svg>
+         Blog
+      </div>
+
+      <image src= "{{page.featured_rondela}}" class="block py-8 mx-auto"/>
+      <h1 class="block max-w-md mx-auto mb-8 text-3xl font-bold text-center"
+          data-blog-post-target="title">
+        {{ page.title }}
+      </h1>
+      <p class="block max-w-xl mx-auto leading-normal mx-auto-sm">
+        {{ page.date | date_to_string }}
+      </p>
+      <div class="block max-w-xl mx-auto leading-normal">
+         {{ content }}
+      </div>
+   </div>
 </div>
