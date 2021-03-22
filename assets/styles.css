@@ -23,6 +23,7 @@
   @apply h-96;
   @apply bg-opacity-50;
   @apply text-crema-50;
+  @apply animate-fade-in-down;
 }
 
 .blurry>* {

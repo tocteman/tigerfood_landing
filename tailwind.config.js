@@ -1,12 +1,12 @@
 module.exports = {
-   // purge: [
-   //  './_includes/**/*.html',
-   //  './_layouts/**/*.html',
-   //  './partials/*.md',
-   //  './_posts/*.md',
-   //  './**/*.html',
-   //  './**/*.md',
-  // ],
+   purge: [
+    './_includes/**/*.html',
+    './_layouts/**/*.html',
+    './partials/*.md',
+    './_posts/*.md',
+    './**/*.html',
+    './**/*.md',
+  ],
   darkMode: false,
   theme: {
     fontFamily: {
@@ -14,6 +14,26 @@ module.exports = {
       'serif': ['Calistoga', 'serif']
     },
     extend: {
+      keyframes: {
+         wiggle: {
+           '0%, 100%': { transform: 'rotate(-2deg)' },
+           '50%': { transform: 'rotate(2deg)' },
+         },
+        'fade-in-down': {
+                    '0%': {
+                        opacity: '0',
+                        transform: 'translateY(-10px)'
+                    },
+                    '100%': {
+                        opacity: '1',
+                        transform: 'translateY(0)'
+                    },
+                }
+      },
+      animation: {
+       wiggle: 'wiggle 1s ease-in-out infinite',
+      'fade-in-down': 'fade-in-down 0.5s ease-out'
+      },
       height: {
         'cuarto': '25vh',
         'medio': '50vh',
@@ -87,19 +107,10 @@ module.exports = {
       }),
     },
   },
-  variants: {},
-  plugins: [
-    require('tailwindcss-animatecss')({
-        classes: ['animate__animated', 'animate__fadeIn', 'animate__bounceIn', 'animate__lightSpeedOut'],
-        settings: {
-          animatedSpeed: 1000,
-          heartBeatSpeed: 1000,
-          hingeSpeed: 2000,
-          bounceInSpeed: 750,
-          bounceOutSpeed: 750,
-          animationDelaySpeed: 1000
-        },
-        variants: ['responsive', 'hover', 'reduced-motion'],
-      }),
-  ],
+  variants: {
+    extend: {
+      animation: ['hover']
+    }
+  },
+  plugins: [ ],
 }
