@@ -3,7 +3,7 @@ layout: blank
 ---
 <turbo-frame id="the_pit">
   <div style="background-image: url('../../assets/img/escarapelas/escarapela_cerdo_ruidosa.png')"
-  class="bg-cover">
+  class="bg-cover animate-fade-in-down">
     <div class="escarapela border-salmon-300">
      <h2 class="text-4xl">Cerdo</h2>
       <h3 class="py-2 mx-8 text-xl font-bold text-center">

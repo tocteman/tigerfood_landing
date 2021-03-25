@@ -3,7 +3,7 @@ layout: blank
 ---
 
 <turbo-frame id="pet-qa">
-  <div class="flex-col justify-center w-full px-8 py-4 text-lg text-2xl text-center md:flex-row text-crema-100 md:py-16"
+  <div class="flex-col justify-center w-full px-8 py-4 text-lg text-2xl text-center md:flex-row text-crema-100 md:py-16 animate-fade-in-down"
     data-controller="results">
     <div>
     Pues

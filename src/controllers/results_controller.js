@@ -9,7 +9,6 @@ export default class extends Controller {
     name: String
   }
   connect(){
-    console.log("wtf")
     get('dogWeight')
       .then((weight)=> {
         get('dogName')

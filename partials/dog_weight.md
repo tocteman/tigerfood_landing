@@ -3,7 +3,7 @@ layout: blank
 ---
 <turbo-frame id="pet-qa">
   <form 
-  class="flex flex-col items-center py-8 rounded"
+  class="flex flex-col items-center py-8 rounded animate-fade-in-down"
   data-controller="dog-weight"
   >
   <label class="text-2xl font-bold text-crema-50">

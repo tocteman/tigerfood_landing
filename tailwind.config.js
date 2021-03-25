@@ -1,5 +1,5 @@
 module.exports = {
-   purge: [
+  purge: [
     './_includes/**/*.html',
     './_layouts/**/*.html',
     './partials/*.md',
@@ -16,23 +16,35 @@ module.exports = {
     extend: {
       keyframes: {
          wiggle: {
-           '0%, 100%': { transform: 'rotate(-2deg)' },
-           '50%': { transform: 'rotate(2deg)' },
+           '0%, 100%': { transform: 'rotate(-3deg)' },
+           '50%': { transform: 'rotate(3deg)' },
          },
         'fade-in-down': {
-                    '0%': {
-                        opacity: '0',
-                        transform: 'translateY(-10px)'
-                    },
-                    '100%': {
-                        opacity: '1',
-                        transform: 'translateY(0)'
-                    },
-                }
+          '0%': {
+            opacity: '0.7',
+            transform: 'translateY(-10px)'
+          },
+          '100%': {
+            opacity: '1',
+            transform: 'translateY(0)'
+          },
+        },
+        'fade-in-up': {
+          '0%': {
+            opacity: '1',
+            transform: 'translateY(0)'
+          },
+          '100%': {
+            opacity: '0',
+            transform: 'translateY(+10px)'
+          },
+        }
+
       },
       animation: {
        wiggle: 'wiggle 1s ease-in-out infinite',
-      'fade-in-down': 'fade-in-down 0.5s ease-out'
+      'fade-in-down': 'fade-in-down 0.5s ease-out',
+      'fade-in-up': 'fade-in-up 0.5s ease-in'
       },
       height: {
         'cuarto': '25vh',

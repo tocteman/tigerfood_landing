@@ -4,7 +4,7 @@ layout: blank
 <turbo-frame id="the_pit">
   <div style="background-image:
   url('../../assets/img/escarapelas/escarapela_cordero_ruidosa.png')"
-  class="bg-cover">
+  class="bg-cover animate-fade-in-down">
     <div class="escarapela border-turquesa-300"
     >
       <h2 class="text-4xl">Cordero</h2>

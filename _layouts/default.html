@@ -4,8 +4,23 @@
     {% include head.html %}
    <body>
        {% include hero.html %}
+       <div data-controller="main-navbar">
+           <div class="z-20 w-full py-2 overflow-x-hidden bg-morado-700 animate-fade-in-down shadow-sm" 
+                data-main-navbar-target="topbar">
+               <nav class="flex flex-row-reverse pr-4 text-white">
+                   <a href="{{site.baseUrl}}/">
+                   <img src="../assets/img/logo.png" 
+                        style="filter: brightness(3);"
+                        class="w-24 cursor-pointer">
+                   </a>
+                   <a href="{{site.baseUrl}}/blog">
+                   <div class="mx-8 text-lg hover:underline">Blog</div>
+                   </a>
+               </nav>
+           </div>
        {% include main_paper.html %}
        {% include questionnarie.html %}
        {% include footer.html %}
+       </div>
   </body>
 </html>

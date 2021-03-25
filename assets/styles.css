@@ -9,8 +9,24 @@
   opacity: 1;
 }
 
+.bg-trazo {
+  background-image: url('./img/trazo_ruidoso.jpg');
+}
+
 .bg-questionnarie {
   background-image: url('./img/quick_questionnarie_bg.jpg')
+}
+
+.hidden-menu {
+  display: none;
+}
+
+.sticky-menu {
+  position: fixed !important;
+  display: block;
+  @apply top-0;
+  @apply w-full;
+  @apply bg-morado-700;
 }
 
 .escarapela{
@@ -23,7 +39,6 @@
   @apply h-96;
   @apply bg-opacity-50;
   @apply text-crema-50;
-  @apply animate-fade-in-down;
 }
 
 .blurry>* {
