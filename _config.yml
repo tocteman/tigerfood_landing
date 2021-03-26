@@ -3,6 +3,7 @@ email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Comida de verdad para tu mascota; desde Bogotá con mucho cariño.
 baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 logopath: "./assets/img/logo.png"
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 plugins:

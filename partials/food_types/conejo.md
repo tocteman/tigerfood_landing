@@ -2,8 +2,8 @@
 layout: blank
 ---
 <turbo-frame id="the_pit">
-  <div style="background-image: url('../../assets/img/escarapelas/escarapela_conejo_ruidosa.png')"
-  class="bg-cover animate-fade-in-down">
+  <div style="background-image: url('../../assets/img/circles/escarapela_conejo.jpg')"
+  class="bg-cover rounded-full animate-fade-in-down">
     <div class="escarapela border-naranja-300">
 
     <h2 class="text-4xl">Conejo</h2>

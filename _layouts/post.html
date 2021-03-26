@@ -4,8 +4,8 @@
 <body>
     {% include topbar.html %}
  
-    <div data-controller="blog-post"  class="w-full p-8 pt-8 pb-16 md:p-0 min-hscreen bg-gradient-to-b from-crema-100 to-crema-50" >
-       <div class="block max-w-2xl mx-auto text-lg">
+    <div data-controller="blog-post"  class="w-full p-8 pt-8 pb-8 md:p-0 min-hscreen bg-gradient-to-b from-crema-100 to-crema-50" >
+       <div class="block max-w-2xl py-8 mx-auto text-lg">
           <a href="{{site.baseUrl}}/blog">
              <div class="flex cursor-pointer hover:underline text-morado-700">
                 <svg class="w-6 h-6 mr-2 text-morado-700" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16l-4-4m0 0l4-4m-4 4h18"></path></svg>
@@ -18,10 +18,10 @@
               data-blog-post-target="title">
              {{ page.title }}
           </h1>
-          <p class="block max-w-xl mx-auto leading-normal mx-auto-sm">
+          <p class="block max-w-sm pb-4 mx-auto font-bold leading-normal md:max-w-xl mx-auto-sm">
           {{ page.date | date_to_string }}
           </p>
-          <div class="block max-w-xl mx-auto leading-normal">
+          <div class="block max-w-sm pb-8 mx-auto leading-normal md:max-w-xl">
              {{ content }}
           </div>
        </div>
