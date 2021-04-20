@@ -2,7 +2,7 @@
 layout: post
 title: Otra prueba
 date: 2021-04-20T19:30:19.562Z
-feature_image: /assets/img/hambriento.jpg
+feature_image: /assets/img/Enmascarar grupo 1.png
 featured_rondela: /assets/img/tarjeta_cordero.png
 ---
 El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña toca el saxofón detrás del palenque de paja. 1234567890\
