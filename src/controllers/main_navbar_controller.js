@@ -3,7 +3,6 @@ import { Controller } from "stimulus"
 export default class extends Controller {
   static targets = [ "topbar" ]
 
-
   initialize(){
     const topbarClass = this.topbarTarget.classList
     const sticky = 800
@@ -17,7 +16,5 @@ export default class extends Controller {
         topbarClass.add("hidden-menu")
       }
     }
-
-      }
-
- }
+  }
+}

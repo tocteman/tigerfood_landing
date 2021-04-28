@@ -4,7 +4,7 @@ import { annotate } from "rough-notation"
 export default class extends Controller {
   static targets = ["phone" ]
   highlight(){
-    const resaltado = annotate(this.phoneTarget, {type: 'circle', color: '#9070af'})
+    const resaltado = annotate(this.phoneTarget, {type: 'circle', color: '#6EE7B7'})
     resaltado.show()
     setTimeout(() => resaltado.hide(), 2500)
   }

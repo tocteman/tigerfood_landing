@@ -71,7 +71,6 @@
 
 .fondo-general {
    @apply w-full;
-   @apply pt-16;
    @apply bg-gradient-to-b;
    @apply from-crema-100;
    @apply to-crema-150;

@@ -1,14 +1,19 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
 module.exports = {
-  // purge: [
-  //   './_includes/**/*.html',
-  //   './_layouts/**/*.html',
-  //   './partials/*.md',
-  //   './_posts/*.md',
-  //   './**/*.html',
-  //   './**/*.md',
-  // ],
+  purge: [
+    './_includes/**/*.html',
+    './_layouts/**/*.html',
+    './partials/*.md',
+    './_posts/*.md',
+    './**/*.html',
+    './**/*.md',
+  ],
   darkMode: false,
   theme: {
+    screens: {
+      'xs': '450px',
+      ...defaultTheme.screens,
+    },
     fontFamily: {
       'sans': ['Jost', 'sans-serif'],
       'serif': ['Calistoga', 'serif']
@@ -49,6 +54,7 @@ module.exports = {
       height: {
         'cuarto': '25vh',
         'tercio': '33vh',
+        'cuarenta': '40vh',
         'medio': '50vh',
         'dostercios': '67vh',
         'americano': '75vh',
