@@ -1,12 +1,12 @@
 module.exports = {
-  purge: [
-    './_includes/**/*.html',
-    './_layouts/**/*.html',
-    './partials/*.md',
-    './_posts/*.md',
-    './**/*.html',
-    './**/*.md',
-  ],
+  // purge: [
+  //   './_includes/**/*.html',
+  //   './_layouts/**/*.html',
+  //   './partials/*.md',
+  //   './_posts/*.md',
+  //   './**/*.html',
+  //   './**/*.md',
+  // ],
   darkMode: false,
   theme: {
     fontFamily: {
@@ -48,7 +48,9 @@ module.exports = {
       },
       height: {
         'cuarto': '25vh',
+        'tercio': '33vh',
         'medio': '50vh',
+        'dostercios': '67vh',
         'americano': '75vh',
         'casitoda': '87vh',
         'screen': '100vh',
