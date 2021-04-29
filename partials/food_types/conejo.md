@@ -1,10 +1,7 @@
 ---
 layout: blank
 ---
-<turbo-frame id="the_pit" src="/partials/food_types/conejo.html">
-  ...
-</turbo-frame>
-<turbo-frame id="the_pit" src="/partials/food_types/conejo.html" >
+<turbo-frame id="the_pit" >
   <div style="background-image: url('../../assets/img/circles/escarapela_conejo.jpg')"
   class="bg-cover rounded-full animate-fade-in-down">
     <div class="escarapela border-naranja-300">
