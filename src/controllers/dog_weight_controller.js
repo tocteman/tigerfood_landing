@@ -8,19 +8,8 @@ export default class extends Controller {
   static values = {
     weight: Number
   }
-
   anotherGreet() {
     this.weightValue = Number(this.dogWeightTarget.value)
     set('dogWeight', this.weightValue)
   }
-
-  weightValueChanged(){
-    console.log("here's when it changes")
-    console.log(this.weightValue)
-  }
-
-  getWeight() {
-    console.log(this.weightValue)
-  }
-
 }

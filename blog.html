@@ -5,30 +5,30 @@ title: Blog
 
 <div
   data-controller="blog-index"
-  class="w-full min-h-screen pt-4 md:pt-16 bg-gradient-to-b from-crema-100 to-crema-50"
-  >
-  <div class="w-full px-8 py-16 mx-auto border-4 rounded sm:w-4/5 bg-crema-25 shadow-sm border-crema-50 ">
-    <h1 data-blog-index-target="header"
-      class="block max-w-xs pt-8 mx-auto text-5xl font-bold leading-tight text-center"
-    >
-      Blog!
-    </h1>
-      <p class="block max-w-md py-8 mx-auto leading-normal">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-    <ul class="px-4 my-8 list-none md:px-12">
-      {% for post in site.posts %}
-      <li><a href="{{ site.baseurl }}{{ post.url }}">
-        <div class="flex flex-col items-center max-w-sm px-4 py-8 rounded-lg cursor-pointer md:px-8 bg-crema-75 hover:bg-crema-100" data-blog-index-target="container">
-          <img src="{{post.featured_rondela}}"/>
-            <h2 class="z-10 pt-4 pb-2 text-3xl font-bold text-center" >
-              {{ post.title }}
-            </h2>
-            <p>{{ post.excerpt }}</p>
-          </div>
-        </div>
-      </li>
-        </a>
-      {% endfor %}
-    </ul>
+    class="w-full min-h-screen pt-4 md:pt-16 bg-gradient-to-b from-crema-100 to-crema-50"
+>
+    <div class="w-full px-4 py-16 mx-auto border-4 rounded sm:w-4/5 bg-crema-25 shadow-sm border-crema-50 ">
+        <h1 data-blog-index-target="header"
+            class="block max-w-xs pt-8 mx-auto text-5xl font-bold leading-tight text-center" >
+            Blog!
+        </h1>
+        <p class="block px-2 max-w-md py-8 mx-auto leading-normal">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+        <ul class="px-2 my-8 list-none md:px-12 flex flex-col md:flex-row">
+            {% for post in site.posts %}
+                <li>
+                    <a href="{{ site.baseurl }}{{ post.url }}">
+                        <div class="flex flex-col items-center max-w-sm px-2 my-4 py-8 mx-0 md:mx-4 rounded-lg cursor-pointer md:px-8 bg-crema-75 hover:bg-crema-100" data-blog-index-target="container">
+                            <img src="{{post.featured_rondela}}"/>
+                            <h2 class="z-10 pt-4 pb-2 text-3xl font-bold text-center" >
+                                {{ post.title }}
+                            </h2>
+                            <p>{{ post.excerpt }}</p>
+                        </div>
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
   </div>
 
 </div>
