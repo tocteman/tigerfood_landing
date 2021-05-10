@@ -61,7 +61,7 @@ module.exports = {
       },
       animation: {
        wiggle: 'wiggle 1s ease-in-out infinite',
-      'fade-in-down': 'fade-in-down 0.5s ease-out',
+      'fade-in-down': 'fade-in-down 0.85s ease-in',
       'fade-in-up': 'fade-in-up 0.5s ease-in'
       },
       height: {
