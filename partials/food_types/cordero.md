@@ -2,7 +2,7 @@
   class="bg-cover rounded-full animate-fade-in-down">
 layout: blank
 ---
-<turbo-frame id="the_pit">
+<turbo-frame id="the_pit" loading="lazy">
   <div style="background-image:url('../../assets/img/circles/escarapela_cordero.jpg')"
   class="rounded-full bg-cover animate-fade-in-down">
     <div class="escarapela border-turquesa-300"

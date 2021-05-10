@@ -1,7 +1,7 @@
 ---
 layout: blank
 ---
-<turbo-frame id="the_pit">
+<turbo-frame id="the_pit" loading="lazy">
   <div style="background-image: url('../../assets/img/circles/escarapela_cerdo.jpg')"
   class="bg-cover rounded-full animate-fade-in-down">
     <div class="rounded-full escarapela border-salmon-300">
