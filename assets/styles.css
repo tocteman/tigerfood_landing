@@ -35,10 +35,11 @@
   @apply items-center;
   @apply text-center;
   @apply justify-center;
-  @apply w-96;
-  @apply h-96;
   @apply bg-opacity-50;
   @apply text-crema-50;
+  @apply w-80;
+  @apply h-80;
+  @apply rounded-full;
 }
 
 .blurry>* {
