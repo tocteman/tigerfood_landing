@@ -1,10 +1,16 @@
-<div class="flex flex-col items-center justify-center w-full mb-12 md:flex-row">
-  <div class="grid grid-cols-2 grid-rows-3 gap-2">
+<div data-controller="food-types"
+     class="flex flex-col items-center justify-center w-full mb-12 md:flex-row"
+> <div class="grid grid-cols-2 grid-rows-3 gap-2"
+    >
     {% for ft in site.data.food_types.fts %}
-    <turbo-frame id="{{ft.animal}}-li" target="the_pit">
+        <turbo-frame id="{{ft.animal}}-li" target="the_pit"
+          data-food-types-target="thePit"
+
+        >
         <a href="/partials/food_types/{{ft.animal}}.html"
            class="bg-noise">
-        <div class="px-2 py-2 bg-gradient-to-b from-{{ft.color}}-500 to-{{ft.color}}-600 border-4 shadow border-{{ft.color}}-300 hover:from-{{ft.color}}-300 rounded-full cursor-pointer">
+            <div class="px-2 py-2 bg-gradient-to-b from-{{ft.color}}-500 to-{{ft.color}}-600 border-4 shadow border-{{ft.color}}-300 hover:from-{{ft.color}}-300 rounded-full cursor-pointer"
+            data->
           <div class="flex flex-col items-center justify-center w-24 h-24 rounded-full bg-noise">
             <img src="../assets/img/{{ft.animal}}.png"/ class="p-4">
           </div>
@@ -13,9 +19,9 @@
     </turbo-frame> 
     {% endfor %}
   </div>
-  <div class="block py-8 mx-auto ml-0 md:mx-0 md:py-0 md:ml-16"
-    data-controller="food-types">
+  <div class="block py-8 mx-auto ml-0 md:mx-0 md:py-0 md:ml-16" >
       <turbo-frame id="the_pit"
+
       >
         <h3 class="px-4 text-lg text-center"
              data-food-types-target="selectFood">

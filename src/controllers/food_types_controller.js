@@ -2,11 +2,12 @@ import { Controller } from "stimulus"
 import { annotate } from "rough-notation"
 
 export default class extends Controller {
-  static targets = [ "selectFood" ]
+  static targets = [ "selectFood", "conejoFood", "thePit" ]
   connect() {
-    console.log("initialized")
-    const element = this.selectFoodTarget
-    const annotation = annotate(element, {type: 'underline', color: '#eedadf' })
-    annotation.show()
+    annotate(this.selectFoodTarget, {type: 'underline', color: '#eedadf' }).show()
+    const pitElement = this.thePitTarget
+    console.log("the Pit Element:")
   }
+
+
 }
