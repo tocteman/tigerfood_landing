@@ -1,11 +1,10 @@
 <div data-controller="food-types"
      class="flex flex-col items-center justify-center w-full mb-12 md:flex-row"
-> <div class="grid grid-cols-2 grid-rows-3 gap-2"
-    >
+>
+    <div class="grid grid-cols-2 grid-rows-3 gap-2" >
     {% for ft in site.data.food_types.fts %}
         <turbo-frame id="{{ft.animal}}-li" target="the_pit"
           data-food-types-target="thePit"
-
         >
         <a href="/partials/food_types/{{ft.animal}}.html"
            class="bg-noise">
@@ -21,12 +20,17 @@
   </div>
   <div class="block py-8 mx-auto ml-0 md:mx-0 md:py-0 md:ml-16" >
       <turbo-frame id="the_pit"
-
       >
         <h3 class="px-4 text-lg text-center"
              data-food-types-target="selectFood">
           Selecciona el menú y mira lo que contiene.
         </h3>
+    </turbo-frame>
+    <turbo-frame
+        id="the_pit"
+        src="https://tigerfood.netlify.app/partials/food_types/conejo.html"
+    >
+       ...
     </turbo-frame>
   </div>
 </div>
