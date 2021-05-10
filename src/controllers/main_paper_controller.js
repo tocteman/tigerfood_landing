@@ -6,7 +6,7 @@ export default class extends Controller {
   connect(){
     this.whatsappNumberTarget.href =/Mobi/.test(navigator.userAgent) ?
       "whatsapp://send?text=&phone=+593998478479" :
-      "https://toronja.co"
+      "/#footer"
   }
   highlight(){
     const resaltado = annotate(this.phoneTarget, {type: 'circle', color: '#6EE7B7'})
