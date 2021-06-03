@@ -8,7 +8,9 @@ layout: blank
     <div class="escarapela md:w-96 md:h-96 border-turquesa-300"
     >
       <h2 class="text-2xl md:text-4xl">Cordero</h2>
-      <h3 class="py-2 mx-8 text-lg md:text-xl font-bold text-center">Arroz Integral, aceite de coco, coliflor, espinaca, zapallo, zanahoria, arándanos.</h3>
+      <h3 class="py-2 mx-8 text-lg md:text-xl font-bold text-center">
+      Cordero, arroz Integral, aceite de coco, espinaca, zapallo, zanahoria, manzana.
+      </h3>
       <h3 class="mx-8 text-lg md:text-xl">Ideal para perros mayores*</h3>
     </div>
   </div>

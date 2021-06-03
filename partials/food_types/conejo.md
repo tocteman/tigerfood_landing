@@ -8,7 +8,7 @@ layout: blank
     <div class="escarapela md:w-96 md:h-96 border-naranja-300">
     <h2 class="text-2xl md:text-4xl">Conejo</h2>
       <h3 class="py-2 mx-8 text-lg md:text-xl font-bold text-center">
-        Arroz integral, yogur natural, papa criolla, brócoli, zanahoria, champiñones, espinaca, melón.
+      Conejo, arroz integral, zanahoria, espinaca, melón
       </h3>
       <h3 class="mx-8 text-lg md:text-xl">Ideal para cachorros.*</h3>
     </div>

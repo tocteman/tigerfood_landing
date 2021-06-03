@@ -3,7 +3,6 @@
 
     {% include head.html %}
    <body class="overflow-x-hidden">
-       {% include hero.html %}
        <div data-controller="main-navbar">
            <div class="z-20 w-full py-2 overflow-x-hidden bg-morado-700 animate-fade-in-down shadow-sm" 
                 data-main-navbar-target="topbar">
@@ -18,6 +17,7 @@
                    </a>
                </nav>
            </div>
+       {% include hero.html %}
        {% include main_paper.html %}
        {% include questionnarie.html %}
        {% include footer.html %}

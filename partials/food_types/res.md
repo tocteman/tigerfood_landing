@@ -7,7 +7,7 @@ layout: blank
     <div class="escarapela md:w-96 md:h-96 border-lacre-300">
       <h2 class="text-2xl md:text-4xl">Res</h2>
       <h3 class="py-2 mx-8 text-lg md:text-xl font-bold text-center">
-        Arroz integral, papa, arverja verde, aceite de canola, zanahoria, espinaca, calabacín, manzana.
+      Res e hígado, arroz integral, arveja verde, zanahoria, espinaca, zucchini, manzana.
       </h3>
       <h3 class="mx-8 text-lg md:text-xl">Ideal para perros adultos.*</h3>
     </div>
