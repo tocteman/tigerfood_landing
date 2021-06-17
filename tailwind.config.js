@@ -2,15 +2,12 @@ const defaultTheme = require('tailwindcss/defaultTheme')
 module.exports = {
   purge: {
     content: [
-    './_includes.html',
-    './_layouts.html',
-    './partials.md',
-    './_posts.md',
-    '..html',
-    '../*/.html',
-      './**/*.html',
-      './**/*.md',
-    '..md',
+    './_includes/**/*.html',
+    './_layouts/**/*.html',
+    './partials/*.md',
+    './_posts/*.md',
+    './**/*.html',
+    './**/*.md',
     ],
      options: {
        safelist: [
