@@ -5,7 +5,7 @@
               lg:padding-top-screen" data-controller="main-paper">
   <div class="w-full pb-16 mx-auto border-4 rounded sm:w-4/5 bg-crema-25 shadow-sm border-crema-50">
       <div class="w-full flex flex-row-reverse sticky z-10 sticky  top-16 sm:top-24 pr-1">
-          <div class="w-12  cursor-pointer right-8 sm:right-16 md:right-24 -ml-4 md:-ml-8  animate-wiggle rounded-full bg-white" data-action="mouseover->main-paper#highlight">
+          <div class="w-12 xl:w-16 xxl:w-20  cursor-pointer right-8 sm:right-16 md:right-24 -ml-4 md:-ml-8  animate-wiggle rounded-full bg-white" data-action="mouseover->main-paper#highlight">
               <a data-main-paper-target="whatsappNumber">
                   <img src="../assets/img/phone_circle.svg" class="animate-fade-in" alt="" data-main-paper-target="phone">
               </a>
@@ -16,8 +16,10 @@
         <div class="mb-8">
             {% include written_homepage.html %}
         </div>
-        <hr class="block w-3/4 mx-auto my-4 border-b-2 border-morado-300"/>
-        <p class="mx-auto my-8 text-xl font-bold text-center">Tenemos 6 tipos de recetas con las que puedes deleitar a tu perro:</p>
+        <hr class="block w-3/4 mx-auto my-4 border-b-2 border-transparent"
+					data-main-paper-target="greatDivider"
+				/>
+        <p class="mx-auto my-8 text-xl font-bold text-center">Tenemos 6 tipos de recetas con las que puedes deleitar a tu mascota:</p>
         <div>
             {% include food_types.html %}
         </div>
