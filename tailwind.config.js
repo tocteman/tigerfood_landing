@@ -1,26 +1,26 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
 module.exports = {
-  // purge: {
-  //   content: [
-  //   './_includes/**/*.html',
-  //   './_layouts/**/*.html',
-  //   './partials/*.md',
-  //   './_posts/*.md',
-  //   './**/*.html',
-  //   './**/*.md',
-  //   ],
-  //    options: {
-  //      safelist: [
-  //        'from-morado-500', 'to-morado-600', 'from-morado-300',
-  //        'from-turquesa-500', 'to-turquesa-600', 'from-turquesa-300',
-  //        'from-mostaza-500', 'to-mostaza-600', 'from-mostaza-300',
-  //        'from-verde-500', 'to-verde-600', 'from-verde-300',
-  //        'from-lacre-500', 'to-lacre-600', 'from-lacre-300',
-  //        'from-naranja-500', 'to-naranja-600', 'from-naranja-300',
-  //        'from-salmon-500', 'to-salmon-600', 'from-salmon-300'
-  //      ]
-  //    }
-  // },
+  purge: {
+    content: [
+    './_includes.html',
+    './_layouts.html',
+    './partials.md',
+    './_posts.md',
+    '..html',
+    '..md',
+    ],
+     options: {
+       safelist: [
+         'from-morado-500', 'to-morado-600', 'from-morado-300',
+         'from-turquesa-500', 'to-turquesa-600', 'from-turquesa-300',
+         'from-mostaza-500', 'to-mostaza-600', 'from-mostaza-300',
+         'from-verde-500', 'to-verde-600', 'from-verde-300',
+         'from-lacre-500', 'to-lacre-600', 'from-lacre-300',
+         'from-naranja-500', 'to-naranja-600', 'from-naranja-300',
+         'from-salmon-500', 'to-salmon-600', 'from-salmon-300'
+       ]
+     }
+  },
   darkMode: false,
   theme: {
     screens: {
