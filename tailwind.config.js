@@ -7,6 +7,9 @@ module.exports = {
     './partials.md',
     './_posts.md',
     '..html',
+    '../*/.html',
+      './**/*.html',
+      './**/*.md',
     '..md',
     ],
      options: {
