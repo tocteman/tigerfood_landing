@@ -6,8 +6,9 @@ export default class extends Controller {
   connect(){
     annotate(this.greatDividerTarget, {type: 'underline', color: '#9070af'}).show()
     this.whatsappNumberTarget.href =/Mobi/.test(navigator.userAgent) ?
+
       "whatsapp://send?text=&phone=+573004531216" :
-      "/#footer"
+      "https://api.whatsapp.com/send?phone=+573004531216"
   }
   highlight(){
     annotate(this.phoneTarget, {type: 'circle', color: '#6EE7B7'}).show()
