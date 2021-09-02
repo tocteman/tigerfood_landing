@@ -1,11 +1,11 @@
 title: Tigerfoods
 email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
+description: >- 
   Comida de verdad para tu mascota; desde Bogotá con mucho cariño.
 baseurl: "" # the subpath of your site, e.g. /blog
 baseurl: "" # the subpath of your site, e.g. /blog
 logopath: "./assets/img/logo.png"
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://tiger-foods.pet" 
 plugins:
   - jekyll-feed
   - jekyll-postcss
@@ -14,12 +14,8 @@ exclude:
   - purgecss.config.js
   - tags
   - tags.lock
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
   - Gemfile
   - Gemfile.lock
   - node_modules/
   - .bundle
-  # - yarn.lock
 
