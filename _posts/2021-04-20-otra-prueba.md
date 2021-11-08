@@ -42,7 +42,7 @@ para discutir con el veterinario los posibles desafíos con los que se encontrar
 Una vez tengas claras todas las variables que intervienen en el aumento de peso de tu perro, sigue estos 3 consejos infalibles para ayudarlo a lograr su meta.
 
 
-1. ### Determina la cantidad de calorías que consume
+### Determina la cantidad de calorías que consume
 
 
 Si buscas controlar o reducir el peso de tu perro, **la comida es lo primero que debes evaluar.**
@@ -76,7 +76,7 @@ Ten cuidado con adivinar las porciones. Utiliza una taza medidora, no una taza d
 Si tu perro está acostumbrado a las sobras de la mesa, es probable que esté ingiriendo más calorías de lo que crees. Aunque quitar este hábito puede ser difícil al principio, resiste la tentación de ceder ante sus adorables ojos de cachorrito.
 
 
-1. ### Ayúdalo a moverse más
+### Ayúdalo a moverse más
 
 
 La comida es clave, pero **ningún plan de pérdida de peso o de mantenimiento está completo sin ejercicio.**
@@ -100,7 +100,7 @@ Si tu perro tiene dificultades con las caminatas debido a la artritis u otra enf
 Asegúrate de que tu perro tome mucha agua mientras hace ejercicio.
 
 
-1. ### Más proteínas y menos carbohidratos
+### Más proteínas y menos carbohidratos
 
 
 Otra parte importante en el mantenimiento y la pérdida de peso de tu perro es la sana nutrición con alimentos frescos, enteros y bajos en carbohidratos.
@@ -166,6 +166,8 @@ En general, **la mejor estrategia de control de peso es desarrollar buenos hábi
 Es responsabilidad de cada uno de los miembros de la familia ayudar a tu perro a mantener un peso saludable.
 
 Si utilizas estas sencillas sugerencias, estarás más cerca de ayudar a tu peludito a alcanzar su peso ideal.
+
+---
 
 En **TigerFoods** queremos conocer tu experiencia con la pérdida de peso de tu mascota.
 

@@ -9,7 +9,6 @@ url: "https://tiger-foods.pet"
 plugins:
   - jekyll-feed
   - jekyll-postcss
-
 exclude:
   - purgecss.config.js
   - tags
